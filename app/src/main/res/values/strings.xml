@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Clima</string>
+    <string name="gradosTemperatura">28°</string>
+    <string name="ciudadStatus">Soleado</string>
+    <string name="ciudadTemperatura">Popayan</string>
+
+   <string name="textodebienvenida">Bienvenido a mi app del clima</string>
+
+    <string name="texto_boton_colombia">Clima de la ciudad de Pasto</string>
+    <string name="texto_boton_alemania">Clima de la ciudad de Berlin</string>
+</resources>

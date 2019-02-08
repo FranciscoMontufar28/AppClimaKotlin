@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity" android:background="@color/colorPrimary">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvGrados"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="100dp" android:text="@string/gradosTemperatura"
+            android:textSize="@dimen/temperaturaTextSize" android:textColor="@android:color/background_light"/>
+    <TextView
+            android:text="@string/ciudadTemperatura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/tvGrados"
+            android:id="@+id/tvCiudad" android:textSize="@dimen/ciudadTextSize"
+            android:textColor="@android:color/background_light"/>
+    <TextView
+            android:text="@string/ciudadStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvEstatus"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tvCiudad"
+            android:layout_marginTop="20dp" android:textSize="@dimen/estadoTextSize"
+            android:textColor="@android:color/background_light"/>
+</RelativeLayout>

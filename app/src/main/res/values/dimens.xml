@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="temperaturaTextSize">80sp</dimen>
+    <dimen name="ciudadTextSize">30sp</dimen>
+    <dimen name="estadoTextSize">20sp</dimen>
+</resources>
